@@ -96,7 +96,7 @@ h1{
     opacity: 1;
     font-family:'Poppins';
     border-radius:  60px ;
-    font-size: 24px;
+    font-size: 40px;
     border: 2px solid black;
 
 }
@@ -160,7 +160,7 @@ input{
 {
     position: absolute;
     left: 0pc;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 500;
     top: 12pc;
     cursor: pointer;
@@ -176,7 +176,7 @@ input{
 .AA span{position: absolute;
     position: absolute;
     left: 0.5pc;
-    font-size: 21px;
+    font-size: 13px;
     font-weight: 500;
     top: 12pc;
     cursor: pointer;
