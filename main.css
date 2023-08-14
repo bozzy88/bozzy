@@ -196,18 +196,28 @@ input{
     }
 
 } 
+@media screen and (max-width: 280px){
+  input{
+    width: 15pc;
+    left: 65px;
+  }
+  #icon{
+    left: 17pc;
+  }
+
+} 
 @media screen and (max-width: 912px){
     button{
         left: 29pc;
     }
     body{
-        margin-left: -10pc;
+        margin-left: -14pc;
     }
 } 
 @media screen and (max-width: 490px) {
 
 body{
-    margin-left: 13pc;
+    margin-left: 0pc;
     position: absolute;
 }
   input{
@@ -220,9 +230,14 @@ body{
     font-size: 20px;
     width: 250px;
   }
+  .BB span{
+    left: -2pc;
+  }
   .products li{
-    left: 4pc;
+    left: 7.6pc;
     top: 78pc;
+    font-size: 35px;
+    width: 22pc;
 }
   .BB{
     left:3pc ;
@@ -252,24 +267,25 @@ body{
     left: 14pc;
 }
 .BB img{
-    left: -5px;
+    left: -40px;
     position: relative;
 
 }
 .AA img{
     position: relative;
-    left: -93px;
+    left: -176px;
 }
 
 .AA span{
-    left: -65px;
+    left: -11pc;
     
 }
 .AA h3{
-    left: -90px;
+    left: -176px;
     position: relative;
 }
 h3{
     font-size: 24px;
+    left: -2pc;
 }
   }
