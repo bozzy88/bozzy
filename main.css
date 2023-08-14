@@ -275,19 +275,21 @@ body{
 }
 .AA img{
     position: relative;
-    left: -176px;
+    left: -60px;
+    top: -2pc;
+
 }
 
 .AA span{
-    left: -11pc;
+    left: -3.5pc;
     
 }
 .AA h3{
-    left: -176px;
+    left: -60px;
     position: relative;
 }
 h3{
-    font-size: 24px;
+    font-size: 16px;
     left: -2pc;
 }
   }
