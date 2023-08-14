@@ -25,7 +25,7 @@
 
 }
 body{
-    background-color: #E5F6F6;
+    background-color: #FBFBFB;
     overflow-x: hidden;
     font-family: 'Canopee'; 
     position: relative;
@@ -52,7 +52,7 @@ h3{
     position: relative;
 }
 button{
-    background-color: #0163c6;
+    background-color: #7B7B6F;
     display: block;
     margin: 20px 10px 0;
     position: relative;
@@ -167,7 +167,7 @@ input{
     top: 12pc;
     cursor: pointer;
     color:black;
-    background-color:  rgb(129, 129, 255);
+    background-color:  #e1e0e0;
     width: 140px;
     height: 30px;
     display: flex;
@@ -183,7 +183,7 @@ input{
     top: 12pc;
     cursor: pointer;
     color:black;
-    background-color: rgb(129, 129, 255);
+    background-color: #e1e0e0;
     height: 30px;
     width: 140px;
     border-radius: 37px;
