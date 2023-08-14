@@ -218,7 +218,7 @@ input{
 @media screen and (max-width: 490px) {
 
 body{
-    margin-left: 12pc;
+    margin-left: 14pc;
     position: absolute;
 }
   input{
@@ -239,7 +239,7 @@ body{
     top: 78pc;
        font-family: 'Canopee'; 
     font-size: 35px;
-    width: 22pc;
+    width: 30pc;
 }
   .BB{
     left:3pc ;
