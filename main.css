@@ -233,11 +233,12 @@ body{
   }
   .BB span{
     left: -2pc;
+    font-size:15px;
   }
   .products li{
-    left: 7.6pc;
+    left: 3.6pc;
     top: 78pc;
-       font-family: 'Canopee'; 
+    font-family: 'Canopee'; 
     font-size: 35px;
     width: 30pc;
 }
@@ -276,12 +277,13 @@ body{
 .AA img{
     position: relative;
     left: -60px;
-    top: -2pc;
+    top: 0pc;
 
 }
 
 .AA span{
     left: -3.5pc;
+    font-size:15px;
     
 }
 .AA h3{
