@@ -211,7 +211,7 @@ input{
         left: 29pc;
     }
     body{
-        margin-left: -14pc;
+        margin-left: 0pc;
     }
 } 
 @media screen and (max-width: 490px) {
