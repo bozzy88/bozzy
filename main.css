@@ -1,0 +1,275 @@
+
+@font-face {
+    font-family: Otto;
+    src: url(OTTOATTACTYPE.ttf);
+}
+@font-face {
+    font-family: Canoppe;
+    src: url(Canopee.otf);
+     }
+@font-face {
+    font-family: orelo;
+    src: url(Orelo.otf);
+}
+
+@font-face {
+    font-family: lux;
+    src: url(Luxoorea-0W8qR.otf);
+}
+@import url('https://fonts.cdnfonts.com/css/stretch-pro');
+@import url('https://fonts.cdnfonts.com/css/dragon-4');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #E5F6F6;
+    overflow-x: hidden;
+    font-family: 'Canopee'; 
+    position: relative;
+    left: 10px;                                           
+}
+.pfp{
+    height: 13pc;
+    clip-path: circle();
+    left: 33pc;
+    position: absolute;
+    top: 20px;
+    opacity: 0;
+}
+.icon {
+    position: absolute;
+    height: 3pc;
+    top: 15pc;
+    left: 43pc;
+    opacity: 0;
+
+}
+h3{
+    top: -1pc;
+    position: relative;
+}
+button{
+    background-color: #0163c6;
+    display: block;
+    margin: 20px 10px 0;
+    position: relative;
+    top: -6pc;
+    left: 35%;
+    width: 20pc;
+    outline: none;
+    border: 2px solid black;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Canoppe';
+    font-size: 30px;  
+    
+    transform: translateY(0); 
+    opacity: 0;                                     
+}
+h1{
+    color: black;
+    position: absolute;
+    left:36pc;
+    top: 16.2pc;
+    overflow: hidden;
+    font-family: 'lux';
+    font-size: 45px;
+}
+
+.products li{ 
+    background-color: transparent;
+    height: 20pc;
+    width: 30pc;
+    margin: 10px;
+    text-transform: uppercase;
+    display: block;
+    overflow: hidden;
+    left: -13pc;
+    padding: 0 0 0 0pc;
+    position: relative;
+    text-align: center;
+    top: 162pc;
+    opacity: 1;
+    border-radius:  60px ;
+    font-size: 40px;
+    border: 2px solid black;
+
+}
+
+.media{
+    position: relative;
+    top: 19pc;
+    padding: 4pc 0 0 0;
+}
+.products{
+    position: relative;
+    left: 38pc;
+    top: -138pc;
+    width: 41pc;
+}
+
+.AA {
+    font-size: 24px;
+    position: absolute;
+    left: 270px;
+    top: 4pc;
+}
+.BB {
+    font-size: 24px;
+    position: absolute;
+    left: 40px;
+    top: 4pc;
+}
+
+input{
+    outline: none;
+    border: none;
+    position: absolute;
+    left: 27pc;
+    top: 35pc;
+    font-family: 'canopee';
+    height: 40px;
+    width: 25pc;
+    border-radius: 30px;
+    padding: 0 0 0 10px ;
+    text-transform: uppercase;
+    opacity: 0;
+}
+.AA img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+.BB img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+}
+#icon{
+    position: absolute;
+    left: 50pc;
+    top: 35.7pc;
+    opacity: 0;
+}
+.BB span
+{
+    position: absolute;
+    left: 0pc;
+    font-size: 20px;
+    font-weight: 500;
+    top: 12pc;
+    cursor: pointer;
+    color:black;
+    background-color:  rgb(129, 129, 255);
+    width: 140px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37px;
+}
+.AA span{position: absolute;
+    position: absolute;
+    left: 0.5pc;
+    font-size: 21px;
+    font-weight: 500;
+    top: 12pc;
+    cursor: pointer;
+    color:black;
+    background-color: rgb(129, 129, 255);
+    height: 30px;
+    width: 140px;
+    border-radius: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 1080px){
+    button{
+        left: 29pc;
+    }
+
+} 
+@media screen and (max-width: 912px){
+    button{
+        left: 29pc;
+    }
+    body{
+        margin-left: -10pc;
+    }
+} 
+@media screen and (max-width: 490px) {
+
+body{
+    margin-left: 13pc;
+    position: absolute;
+}
+  input{
+    left: 30px;
+    width: 19pc;
+  }
+  button{
+    left: 50px;
+    height: 32px;
+    font-size: 20px;
+    width: 250px;
+  }
+  .products li{
+    left: 4pc;
+    top: 78pc;
+}
+  .BB{
+    left:3pc ;
+  }
+  .AA{
+    left: 23pc;
+  }
+  .products{
+    left: -8pc;
+    top: -53pc;
+    height: 10pc;
+  }
+  #icon{
+    left: 19pc;
+  }
+  .pfp{
+    position: absolute;
+    left: 5pc;
+    top: 1pc;
+  }
+  h1{
+    left: 125px;
+  }
+
+.icon{
+    position: absolute;
+    left: 14pc;
+}
+.BB img{
+    left: -5px;
+    position: relative;
+
+}
+.AA img{
+    position: relative;
+    left: -93px;
+}
+
+.AA span{
+    left: -65px;
+    
+}
+.AA h3{
+    left: -90px;
+    position: relative;
+}
+h3{
+    font-size: 24px;
+}
+  }

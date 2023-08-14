@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOZZY</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+   <img class="pfp" src="imgs/pfp.jpg" alt="">
+    <h1 id="name">BooZY</h1><img  class="icon" src="imgs/icon.png" alt="">
+    <div class="media">
+       <button class="insta" id="button">My IG</button>
+        <button class="tiktok" id="button"> My TIKTOK</button>
+      <button class="yt" id="button"> My YOUTUBE</button>
+    </div>
+    <input type="text" placeholder="search part" id="input">  <i class="fa-solid fa-magnifying-glass " id="icon"></i>
+    <div class="products">
+        <li id="li"> <span id="span5"> part 1 </span>
+            <div class="BB"> 
+             <h3>desk vaccum</h3>
+            <a href="https://amzn.to/3OU5mwx"> <span>buy on amazon</span></a>  
+             <img src="imgs/vac.jpg" alt="">
+           
+            </div>  
+            <div class="AA">
+               <h3>lemon juicer</h3>
+              <a href="https://amzn.to/459s5KO"> <span>buy on amazon</span></a>  
+             <img src="imgs/juicer.webp" alt="">
+           
+            </div>        
+              </li>
+        <li id="li"> <span id="span6"> part 2 </span>
+            <div class="BB"> 
+             <h3>desk cup holder</h3>
+            <a href="https://amzn.to/3YzyagN"> <span>buy on amazon</span></a>  
+             <img src="imgs/cup.jpg" alt="">
+           
+            </div>  
+            <div class="AA">
+               <h3>Sewing Machine</h3>
+              <a href="https://amzn.to/3DTO6kD"> <span>buy on amazon</span></a>  
+             <img src="imgs/machine.webp" alt="">
+           
+            </div>        
+              </li>
+        <li id="li"> <span id="span7"> part 3 </span>
+            <div class="BB"> 
+             <h3>basket</h3>
+            <a href="https://amzn.to/45bIaPZ"> <span>buy on amazon</span></a>  
+             <img src="imgs/basket.jpg" alt="">
+            </div>  
+            <div class="AA">
+               <h3>book light </h3>
+              <a href="https://amzn.to/3QBiQyk"> <span>buy on amazon</span></a>  
+             <img src="imgs/light.jpg" alt="">
+           
+            </div>        
+              </li>
+        <li id="li"> <span id="span8"> part 4 </span>
+            <div class="BB"> 
+             <h3>mini power bank</h3>
+            <a href="https://amzn.to/3DTPkfJ"> <span>buy on amazon</span></a>  
+             <img src="imgs/power.jpg" alt="">
+           
+            </div>  
+            <div class="AA">
+               <h3>light alarm</h3>
+              <a href="https://amzn.to/3qniVLB"> <span>buy on amazon</span></a>  
+             <img src="imgs/zake.jpg" alt="">
+           
+            </div>        
+              </li>
+              <li id="li"> <span id="span"> part 5 </span> 
+                <div class="BB">
+                 <h3>meat slicer</h3>
+                <a href="https://amzn.to/3sgadPx"> <span>buy on amazon</span></a>  
+                 <img src="imgs/slicer.jpg" alt="">
+                </div>  
+                <div class="AA">
+                   <h3>fruits washer</h3>
+                  <a href="https://amzn.to/3QxcHDq"> <span>buy on amazon</span></a>  
+                 <img src="imgs/washer.webp" alt="">
+               
+                </div>        
+                  </li>
+            <li id="li"> <span id="span2"> part 6 </span>
+                <div class="BB"> 
+                 <h3>arm support </h3>
+                <a href="https://amzn.to/47wY7lu"> <span>buy on amazon</span></a>  
+                 <img src="imgs/arm.jpg" alt="">
+               
+                </div>  
+                <div class="AA">
+                   <h3>jar opner</h3>
+                  <a href="https://amzn.to/47vXQ1X"> <span>buy on amazon</span></a>  
+                 <img src="imgs/jar.jpg" alt="">
+               
+                </div>        
+    </div>
+    
+    <script>
+
+        gsap.to("#button",{
+           duration: 1,
+           y: 50,
+           ease:"Power4.out",
+           opacity: 1,
+           delay:2,
+           stagger:{
+            amount: 0.5,
+           }
+        });
+        gsap.to("#i",{
+           duration: 1,
+           y: 50,
+           ease:"Power4.out",
+           opacity: 1,
+           delay:4,
+        });
+        gsap.from("#li",{
+           duration: 1,
+           y: 35,
+
+           ease:"Power4.out",
+           delay:1,
+           stagger:{
+            amount: 0.9,
+           }
+           
+        });
+      gsap.to("#input",{
+           duration: 1,
+           opacity: 1,
+           delay:3,
+        });
+        gsap.to(".pfp",{
+           duration: 1,
+           opacity:1,
+           delay:1,
+        });
+
+        gsap.to(".icon",{
+           duration: 1,
+           opacity: 1,
+           delay:1,
+        });
+        gsap.to("#icon",{
+           duration: 1,
+           opacity: 1,
+           delay:3,
+        });
+        gsap.to("#name",{
+            y:-20,
+            duration:1,
+        })
+
+    </script> 
+    <script>
+      const input = document.getElementById('input');
+    const lis = document.querySelectorAll('.products li');
+    const originalHTML = document.querySelector('.products').innerHTML; // Store the original HTML content
+
+    input.addEventListener('input', () => {
+        const searchTerm = input.value.trim().toLowerCase();
+
+        lis.forEach(li => {
+            const span = li.querySelector('span');
+            if (span.textContent.toLowerCase().includes(searchTerm)) {
+                li.style.display = 'block';
+                li.style.scale = 1;
+               
+               
+            } else  {
+                li.style.display = 'none';
+            }
+            
+        if (searchTerm === '') {
+            document.querySelector('.products').innerHTML = originalHTML;
+
+
+            
+            
+             
+        }
+        });
+
+    });
+</script>
+
+</body>
+</html>
