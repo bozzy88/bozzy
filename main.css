@@ -218,7 +218,7 @@ input{
 @media screen and (max-width: 490px) {
 
 body{
-    margin-left: 0pc;
+    margin-left: 12pc;
     position: absolute;
 }
   input{
@@ -237,6 +237,7 @@ body{
   .products li{
     left: 7.6pc;
     top: 78pc;
+       font-family: 'Canopee'; 
     font-size: 35px;
     width: 22pc;
 }
